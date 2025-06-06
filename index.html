@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="container">
-    <div class="left"></div>
-    <div class="right"></div>
-  </div>
-  <script src="./main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left" id="left" >
+        <div class="list" draggable="true">
+          <img id="image" src="./drag_drop_icon.png" alt="List--Icon" />
+          <p>List Item 1</p>
+        </div>
+        <div class="list" draggable="true">
+          <img id="image" src="./drag_drop_icon.png" alt="List--Icon" />
+          <p>List Item 2</p>
+        </div>
+        <div class="list" draggable="true">
+          <img id="image" src="./drag_drop_icon.png" alt="List--Icon" />
+          <p>List Item 3</p>
+        </div>
+        <div class="list" draggable="true">
+          <img id="image" src="./drag_drop_icon.png" alt="List--Icon" />
+          <p>List Item 4</p>
+        </div>
+      </div>
+      <div class="right" id="right"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>

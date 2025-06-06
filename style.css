@@ -12,7 +12,7 @@ html , body {
 
 .container { 
     height : 100% ; 
-    width : 100% ; 
+    width : 100% ;  
     background-color : rgb(94, 248, 189) ; 
     display : flex ; 
     align-items : center ; 
@@ -26,4 +26,21 @@ html , body {
     margin: 20px ; 
     border-radius : 25px ;
     box-shadow: 0 4px 50px 0.25px rgb(255, 246, 246);
+}
+
+.list { 
+    background: rgb(237, 143, 143); 
+    margin : 30px ; 
+    height : 60px ;
+    display : flex ; 
+    align-items : center ; 
+    color : white ;  
+    cursor : grab ; 
+    border-radius : 15px ; 
+}
+
+.list #image { 
+    width : 10px ;
+    margin-right : 10px ; 
+    margin-left : 20px ; 
 }
